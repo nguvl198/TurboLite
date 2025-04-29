@@ -288,3 +288,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/simple-hubs/contents/
 	   loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/VxezeHubHopBoss/refs/heads/main/SkidConCacBaM"))()
   end
   })
+  
+  AddButton(Tab1o, {
+     Name = "HiruHubVeriV2",
+    Callback = function()
+	   getgenv().Team = "Pirates"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaStupid/Source/main/HiruHubVeriV2.lua"))()
+  end
+  })
