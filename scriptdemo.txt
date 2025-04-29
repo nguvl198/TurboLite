@@ -296,3 +296,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/simple-hubs/contents/
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaStupid/Source/main/HiruHubVeriV2.lua"))()
   end
   })
+  
+  AddButton(Tab1o, {
+     Name = "MuxusTL",
+    Callback = function()
+	   getgenv().Team = "Pirates"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MuxusTL/BloxFruits/main/MuxusHub.lua"))()
+  end
+  })
