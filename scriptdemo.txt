@@ -326,3 +326,39 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/MuxusTL/BloxFruits/ma
 	   loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-Free/refs/heads/main/Protected_5609200582002947.lua.txt"))()
   end
   })
+  
+  AddButton(Tab1o, {
+     Name = "HoangNguyenk8",
+    Callback = function()
+	   getgenv().Team = "Pirates"
+loadstring(game:HttpGet('https://raw.githubusercontent.com/HoangNguyenk8/Scripts/refs/heads/main/Loader.lua'))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "KimP",
+    Callback = function()
+	   loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/KimPRobloxV3"))()
+  end
+  })
+  
+  AddButton(Tab4o, {
+     Name = "Teddy-FREMIUM",
+    Callback = function()
+	   loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/Teddy-FREMIUM"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "TeddyHubv2",
+    Callback = function()
+	   loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/TeddyHubv2"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Angery",
+    Callback = function()
+	   loadstring(game:HttpGet("https://gist.githubusercontent.com/angry5/ec20347a74aa4e46c71b15b6093eeaf5/raw/Angery.lua"))()
+  end
+  })
