@@ -37,6 +37,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
           local Tab5o = MakeTab({Name = "Script doking"})
           local Tab6o = MakeTab({Name = "đường ray chết"})
           local Tab7o = MakeTab({Name = "Script bounty bloxfrut nha"})
+          local Tab8o = MakeTab({Name = "AriseCrossover"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -453,5 +454,12 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/10f7f97cebba24
      Name = "TheFastestBondStealer.lua",
     Callback = function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/DonjoScripts/Public-Scripts/refs/heads/Slap-Battles/TheFastestBondStealer.lua'))()    
+  end
+  })
+  
+  AddButton(Tab7o, {
+     Name = "AriseCrossover",
+    Callback = function()
+	   loadstring(game:HttpGet("https://raw.githubusercontent.com/JustLevel/goombahub/main/AriseCrossover.lua"))()
   end
   })
