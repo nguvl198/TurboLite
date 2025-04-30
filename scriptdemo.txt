@@ -457,7 +457,7 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/10f7f97cebba24
   end
   })
   
-  AddButton(Tab7o, {
+  AddButton(Tab8o, {
      Name = "AriseCrossover",
     Callback = function()
 	   loadstring(game:HttpGet("https://raw.githubusercontent.com/JustLevel/goombahub/main/AriseCrossover.lua"))()
