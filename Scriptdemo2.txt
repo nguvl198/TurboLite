@@ -3226,7 +3226,7 @@ if Sea3 then
         end
     });
     local v489 = v16.Main:AddToggle("ToggleRandomBone", {
-        Title = "Random Xương",
+        Title = "Random Xương nè",
         Description = "",
         Default = false
     });
