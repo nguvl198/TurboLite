@@ -463,3 +463,10 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/10f7f97cebba24
 	   loadstring(game:HttpGet("https://raw.githubusercontent.com/JustLevel/goombahub/main/AriseCrossover.lua"))()
   end
   })
+  
+  AddButton(Tab1o, {
+     Name = "TurboLite",
+    Callback = function()
+	   loadstring(game:HttpGet("https://raw.githubusercontent.com/nguvl198/TurboLite/refs/heads/main/Scriptdemo2.txt"))()
+  end
+  })
