@@ -28,7 +28,7 @@ local Window = Fluent:CreateWindow({
     TabWidth = 157,
     Size = UDim2.fromOffset(450, 300),
     Acrylic = true,
-    Theme = " White",
+    Theme = " light",
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
@@ -38,6 +38,7 @@ local Tabs = {
         Main3=Window:AddTab({ Title="Farm Chest" }),
         Main4=Window:AddTab({ Title="Script Hop" }),
        Main5=Window:AddTab({ Title="linh tinh" }),
+       Main6=Window:AddTab({ Title="script kaitun" }),
 }
     Tabs.Main0:AddButton({
     Title = "Discord",
@@ -84,5 +85,76 @@ Tabs.Main1:AddButton({
     Description="",
     Callback=function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))
+  end
+})
+
+Tabs.Main1:AddButton({
+    Title="DATTHGV1",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/DatThg/refs/heads/main/DatThgV1"))()
+  end
+})
+
+Tabs.Main1:AddButton({
+    Title="HoangNguyenk8",
+    Description="",
+    Callback=function()
+	  getgenv().Team = "Pirates"
+loadstring(game:HttpGet('https://raw.githubusercontent.com/HoangNguyenk8/Scripts/refs/heads/main/Loader.lua'))()
+  end
+})
+
+Tabs.Main1:AddButton({
+    Title="Lion Hub",
+    Description="",
+    Callback=function()
+	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+
+getgenv().team = "Pirates" 
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e0c7fcf6c077fc23475cf4ce4db58e42.lua"))()
+  end
+})
+
+Tabs.Main4:AddButton({
+    Title="Yiner hop boss",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/cocaigidaumaskid/Yiner-Hub/refs/heads/main/KaitunTyrantOfTheSkies.lua"))()
+  end
+})
+
+Tabs.Main6:AddButton({
+    Title="xQuartyx",
+    Description="",
+    Callback=function()
+	  getgenv().Mode = "OneClick"
+getgenv().Setting = {
+    ["Team"] = "Marines", -- Options "Pirates", "Marines"
+    ["FucusOnLevel"] = true,
+    ["Fruits"] = {  -- setting for fruits u want
+        ["Primary"] = { -- if current fruit is not in this list, eat/buy
+            "Dragon-Dragon",
+            -- u can configs add mores/remove and must end with , (comma symbol)
+        },
+        ["Normal"] = { -- it just a normal fruit list
+            "Dragon-Dragon",
+            -- u can configs add mores/remove and must end with , (comma symbol)
+        }
+        -- run this for get all fruit name `local t={};for _,v in pairs(game.ReplicatedStorage.Remotes.CommF_:InvokeServer("GetFruits"))do table.insert(t,`"{v.Name}"`)end;setclipboard(table.concat(t, "\n"))`
+    },
+    ["IdleCheck"] = 150, -- every (x) seconds if not moving rejoin
+};
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/QuartyzScript/main/Loader.lua"))()
+  end
+})
+
+Tabs.Main1:AddButton({
+    Title="xQuartyx fram",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/QuartyzScript/main/Loader.lua"))()
   end
 })
