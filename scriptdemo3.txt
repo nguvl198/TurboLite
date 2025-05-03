@@ -237,7 +237,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs
   end
 })
 
-Tabs.Main1:AddButton({
+Tabs.Main3:AddButton({
     Title="Vexez Rương",
     Description="",
     Callback=function()
@@ -262,7 +262,7 @@ Tabs.Main1:AddButton({
   end
 })
 
-Tabs.Main1:AddButton({
+Tabs.Main3:AddButton({
     Title="AK Gaming",
     Description="",
     Callback=function()
