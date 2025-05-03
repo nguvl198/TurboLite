@@ -158,3 +158,20 @@ Tabs.Main1:AddButton({
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/QuartyzScript/main/Loader.lua"))()
   end
 })
+
+Tabs.Main5:AddButton({
+    Title="aimbot Ace",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Totocoems/Ace/main/Ace"))()
+  end
+})
+
+Tabs.Main1:AddButton({
+    Title="MINGAMING-NEW MENU",
+    Description="",
+    Callback=function()
+	  getgenv().Team = "Pirates"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MinGamingHubNew/RealMinGaming/refs/heads/main/MinGaminvHubBloxFruits.lua"))()
+  end
+})
