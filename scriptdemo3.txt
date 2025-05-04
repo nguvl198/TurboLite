@@ -344,3 +344,29 @@ Tabs.Main1:AddButton({
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
   end
 })
+
+Tabs.Main1:AddButton({
+    Title="Vxezehub",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/Vxezehub/refs/heads/main/VxezeHubMain"))()
+  end
+})
+
+Tabs.Main1:AddButton({
+    Title="Xeter hub v1",
+    Description="",
+    Callback=function()
+	  getgenv().Version = "V1"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Loader/main/Xeter.lua"))()
+  end
+})
+
+Tabs.Main1:AddButton({
+    Title="Xeter hub v2) máy yếu ko sài",
+    Description="",
+    Callback=function()
+	  getgenv().Version = "V2"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Loader/main/Xeter.lua"))()
+  end
+})
