@@ -270,7 +270,7 @@ Tabs.Main3:AddButton({
   end
 })
 
-Tabs.Main1:AddButton({
+Tabs.Main2:AddButton({
     Title="Fram fruit ko có tên",
     Description="",
     Callback=function()
@@ -323,5 +323,16 @@ DisableEffects = true
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/d734d024f3000caddd23122da89a6c3e.lua"))()
+  end
+})
+
+Tabs.Main4:AddButton({
+    Title="teddy hub",
+    Description="",
+    Callback=function()
+	  getgenv().Mode = "Tyrant" 
+getgenv().Team = "Marines"
+repeat task.wait() until game:IsLoaded() and game:GetService("Players") and game.Players.LocalPlayer and game.Players.LocalPlayer:FindFirstChild("PlayerGui")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/Auto-Tyrant-TEDDYHUB"))()
   end
 })
