@@ -11,7 +11,7 @@ ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0.10615778, 0, 0.16217947, 0)
 ImageButton.Size = UDim2.new(0, 40, 0, 40)
 ImageButton.Draggable = true
-ImageButton.Image = "http://www.roblox.com/asset/?id=7482981901"
+ImageButton.Image = "http://www.roblox.com/asset/?id=16127135037"
 
 UICorner.CornerRadius = UDim.new(1, 10) 
 UICorner.Parent = ImageButton
@@ -384,5 +384,21 @@ Tabs.Main1:AddButton({
     Description="",
     Callback=function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/4lpaca-pin/Arceney/refs/heads/main/main.luau"))()
+  end
+})
+
+Tabs.Main1:AddButton({
+    Title="solixloader",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/debunked69/solixloader/refs/heads/main/solix%20v2%20new%20loader.lua"))()
+  end
+})
+
+Tabs.Main1:AddButton({
+    Title="BapRed",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/BapRed/main/BapRedHub"))()
   end
 })
