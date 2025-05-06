@@ -402,3 +402,11 @@ Tabs.Main1:AddButton({
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/BapRed/main/BapRedHub"))()
   end
 })
+
+Tabs.Main1:AddButton({
+    Title="TsuoHub",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
+  end
+})
